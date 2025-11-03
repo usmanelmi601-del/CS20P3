@@ -80,6 +80,14 @@ public class RandomNumber1 {
 	        }
 
 	        input.close();
-	    }}
+	    }
 
+/* Screen Dump
+ * Enter a number: 20
+Sum of odd numbers from 1 to 20 = 100
+
+*/
+
+ * 
+ */
 
