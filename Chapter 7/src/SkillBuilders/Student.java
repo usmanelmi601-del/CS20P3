@@ -10,9 +10,9 @@ public class Student
 	public Student()//Constructor method
 	
 	{
-		firstname = "";
-		lastname = "";
-		address = "####";
+		firstname = "unknown";
+		lastname = "unknown";
+		address = "unknown";
         ID = 00000000;		
 	}
 	public Student(String f, String l, String ad, int ID)//Overload Constructor
@@ -63,6 +63,10 @@ public void setlastname(String l)
 	public void setID(int ID)
 	{
 		this.ID = ID;
+	}
+	public char[] ID() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }
 
